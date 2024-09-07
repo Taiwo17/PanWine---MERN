@@ -11,6 +11,7 @@ const config: Config = {
     colors: {
       'primary-wine': '#411530',
       white: '#fff',
+      'primary-opacity': '#41153099',
     },
 
     extend: {
@@ -18,6 +19,7 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'login-pattern': "url('/assets/signup_image.png')",
       },
       borderRadius: {
         lg: 'var(--radius)',

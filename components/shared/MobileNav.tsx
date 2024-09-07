@@ -9,7 +9,7 @@ import Link from 'next/link'
 import { Separator } from '@/components/ui/separator'
 import NavItems from './NavItems'
 
-const MobileNav = () => {
+const MobileNav = async () => {
   return (
     <nav className=''>
       <Sheet>

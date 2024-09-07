@@ -15,3 +15,10 @@ export const headerLink = [
     icon: '/assets/Vector.svg',
   },
 ]
+
+export const userDefaultValue = {
+  fullName: '',
+  phoneNumber: '',
+  email: '',
+  password: '',
+}

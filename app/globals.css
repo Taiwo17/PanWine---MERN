@@ -28,6 +28,12 @@
     @apply max-w-[1440px] w-full px-8 md:px-16 lg:mx-auto  xl:px-0;
   }
 
+  /* Shadcn customisation */
+
+  .input-field {
+    @apply h-[45px] border border-primary-wine rounded-[8px] placeholder:text-primary-wine p-regular-16 focus-visible:ring-0 outline-offset-0 focus-visible:ring-offset-0 focus:ring-0 !important;
+  }
+
   /* 16 */
   .p-regular-20 {
     @apply text-[1.125rem] font-bold leading-[24px];
